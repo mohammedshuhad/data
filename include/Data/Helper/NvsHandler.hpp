@@ -33,7 +33,7 @@ public:
          * @param handler The handler to use for any nvs operations
          * @param key The key to use for any nvs operations
          */
-        virtual void commit(NvsHandler *handler, const char *key) const;
+        virtual void commit(NvsHandler *handler, const char *key) const = 0;
     };
 
     /**
